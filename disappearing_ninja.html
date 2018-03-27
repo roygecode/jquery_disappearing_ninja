@@ -1,0 +1,86 @@
+<html>
+<head>
+    <link href="disappearing_ninja.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#ninjaImage1').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage2').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage3').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage4').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage5').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage6').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage7').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('#ninjaImage8').click(function(){
+                $(this).css('visibility','hidden');
+
+            });
+
+            $('button').click(function(){
+                $('.ninjaImage').css('visibility','visible');
+            });
+
+            
+        });
+    
+    
+    </script>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>jQuery - assignment 1</h1>    
+    </div>
+
+    <div class ="bodyImages">
+        <img src = "ninja.png" id = 'ninjaImage1' class="ninjaImage" alt="invalid image" >
+        <img src = "ninja.png" id = "ninjaImage2" class="ninjaImage" alt="invalid image" >
+        <img src = "ninja.png" id = "ninjaImage3" class="ninjaImage" alt="invalid image" >
+        <img src = "ninja.png" id = "ninjaImage4" class="ninjaImage" alt="invalid image" >
+    </div>
+
+    <div class ="bodyImages">
+        <img src = "ninja.png" id = 'ninjaImage5' class="ninjaImage" alt="invalid image" >
+        <img src = "ninja.png" id = "ninjaImage6" class="ninjaImage" alt="invalid image" >
+        <img src = "ninja.png" id = "ninjaImage7" class="ninjaImage" alt="invalid image" >
+        <img src = "ninja.png" id = "ninjaImage8" class="ninjaImage" alt="invalid image" >
+    </div>
+
+    <div class="footer">
+        <button>Restore</button>
+    </div>
+
+
+
+</body>
+
+</html>
